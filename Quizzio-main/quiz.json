@@ -1,0 +1,277 @@
+{
+	"response_code": 0,
+	"results": [{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What do web application firewalls do that traditional edge firewalls do not?",
+			"correct_answer": "Block SQL injection attacks",
+			"incorrect_answers": [
+				"Block port numbers",
+				"Block protocols",
+				"Block MAC addresses"
+			],
+			"fun_fact": "By 2025, cybercrime will cost the world <b> $10.5 trillion</b> yearly."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What is WAF?",
+			"correct_answer": "Web Application Firewall",
+			"incorrect_answers": [
+				"Web Advancing Firewall",
+				"Web Application Freeware",
+				"Worst Annoying Firmware"
+			],
+			"fun_fact": "The entire cost of cyberattacks in 2022 was <b>$6 trillion</b>."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "How much data and from how many real world applications does our cloud analyse each day to build our intelligence.",
+			"question_old": "How much traffic is analysed by cloud each day?",
+			"correct_answer": "4000GB+ from 2000+ real world apps",
+			"incorrect_answers": [
+				"500GB from 100 real world apps ",
+				"2000GB from 500 real world apps ",
+				"10000GB from 1000 real world apps "
+			],
+			"fun_fact": "Cost of an email attack can on average exceed <b>$1 million</b>."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "How many attacks are blocked by WAF each day?",
+			"correct_answer": "25M & more",
+			"incorrect_answers": [
+				"5M - 10M",
+				"10M - 20M",
+				"20M - 25M"
+			],
+			"fun_fact": "<b>95%</b> of data breaches are the result of human error."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "Amount of bots identified by our advanced bot detection engine?",
+			"correct_answer": "25M & more",
+			"incorrect_answers": [
+				"5M - 10M",
+				"10M - 20M",
+				"20M - 25M"
+			],
+			"fun_fact": "Globally, <b>30,000</b> websites are hacked daily."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "How many HTTP requests one 8 core WAF can process in a day?",
+			"correct_answer": "1500-2000Cr",
+			"incorrect_answers": [
+				"100-500Cr",
+				"500-1000Cr",
+				"1000-1500Cr"
+			],
+			"fun_fact": "<b>64%</b> of companies worldwide have experienced at least one form of cyber attack."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "hard",
+			"question": "How much network traffic one single WAF can handle in a day?",
+			"correct_answer": "15000gb or more",
+			"incorrect_answers": [
+				"500gb - 5000gb",
+				"5000gb - 10000gb",
+				"10000gb - 15000gb"
+			],
+			"fun_fact": "There were <b>22 billion</b> breached records in 2021."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "How many viruses are being created every month?",
+			"correct_answer": "6000+",
+			"incorrect_answers": [
+				"1000",
+				"500",
+				"3000"
+			],
+			"fun_fact": "In 2021, ransomware cases grew by <b>92.7%.</b>"
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "What percent of mails you receive are spams ?",
+			"correct_answer": "80%",
+			"incorrect_answers": [
+				"10%",
+				"50%",
+				"99%"
+			],
+			"fun_fact": "Email is responsible for around <b>94%</b> of all malware."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "For nearly 20 years, the launch code for US nuclear missiles was ?",
+			"correct_answer": "00000000",
+			"incorrect_answers": [
+				"12345678",
+				"USA86NUKES",
+				"MAGA2000"
+			],
+			"fun_fact": "<b>Every 39 seconds</b>, there is a new attack somewhere on the web."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Cyber criminals have developed __ of viruses.",
+			"correct_answer": "20%",
+			"incorrect_answers": [
+				"95%",
+				"70%",
+				"2%"
+			],
+			"fun_fact": "An average of around <b>24,000 malicious mobile apps</b> are blocked daily on the internet."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Whose website did the cybercriminal group UGNazi disabled because they took 2 hrs to deliver their order ?",
+			"correct_answer": "Papa John's website",
+			"incorrect_answers": [
+				"McDonald website",
+				"Twitter website",
+				"UFC website"
+			],
+			"fun_fact": "Amount of traffic Barracuda WAF processed in Jan-2023 was <b> ~150Tb</b>"
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "Which is the most expensive computer virus in the world and in the history of cyber security, which has caused financial damage of about $38 billion ?",
+			"correct_answer": "MyDoom",
+			"incorrect_answers": [
+				"ILOVEYOU",
+				"Sobig",
+				"Blaster"
+			],
+			"fun_fact": "Number of requests/response processed by Barracuda WAF in Jan-2023 was <b> more than 5 Billion</b>."
+		},
+		{
+			"category": "WAF",
+			"type": "multiple",
+			"difficulty": "easy",
+			"question": "A group of computers that is networked together and used by hackers to steal information is called a …",
+			"correct_answer": "Botnet",
+			"incorrect_answers": [
+				"Operating system",
+				"Rootkit",
+				"DDoS"
+			],
+			"fun_fact": "Traffic percentage in API's are greater than HTML Traffic"
+		},
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "Name the most recent botnet(2016)",
+                        "correct_answer": "Mirai",
+                        "incorrect_answers": [
+                                "Kraken",
+                                "Grum",
+                                "Storm"
+                        ],
+						"fun_fact": "Number of requests/response processed by Barracuda WAF in Jan-2023 was <b> more than 5 Billion</b>."
+		},
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "_____ are among the most popular malicious email attachment extensions",
+                        "correct_answer": "Zip and .exe",
+                        "incorrect_answers": [
+                                "Txt and HTML",
+                                "XML",
+                                "tar"
+                        ],
+						"fun_fact": "<b>Every 39 seconds</b>, there is a new attack somewhere on the web."
+		},
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "______ is the third most used form of cyber attack in 2022",
+                        "correct_answer": "Ransomware",
+                        "incorrect_answers": [
+                                "SQL Injection",
+                                "Phishing",
+                                "Man-in-the-Middle"
+                        ],
+						"fun_fact": "Email is responsible for around <b>94%</b> of all malware."
+		},
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "______ is the most vulnerable Operating system (OS) for ransomware",
+                        "correct_answer": "Windows",
+                        "incorrect_answers": [
+                                "Ubuntu",
+                                "macOS"
+                        ],
+						"fun_fact": "There were <b>22 billion</b> breached records in 2021."
+		},
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "Almost 80% of cyber attackers target ____ ?",
+                        "correct_answer": "Government agencies",
+                        "incorrect_answers": [
+                                "E-commerce Applications",
+                                "Financial Institutions",
+                                "Others"
+                        ],
+						"fun_fact": "There were <b>22 billion</b> breached records in 2021."
+                },
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "What kind of companies bought our WAF?",
+                        "correct_answer": "All of the above.",
+                        "incorrect_answers": [
+                                "E-commerce giants",
+                                "Financial Institutions",
+                                "Government Agencies"
+                        ],
+						"fun_fact": "By 2025, cybercrime will cost the world <b> $10.5 trillion</b> yearly."
+                },
+                {
+                        "category": "WAF",
+                        "type": "multiple",
+                        "difficulty": "easy",
+                        "question": "What kind of deployments are supported by ADC?",
+                        "correct_answer": "All of the above.",
+                        "incorrect_answers": [
+                                "Remote Desktop.",
+                                "Sharepoints server deployments.",
+                                "Email gateway deployments."
+                        ],
+						"fun_fact": "Number of our customers actively using ADC is <b>3000+</b>"
+                }
+	]
+}

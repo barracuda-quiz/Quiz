@@ -1,0 +1,135 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What do web application firewalls do that traditional edge firewalls do not?",
+            "correct_answer": "Block SQL injection attacks",
+            "incorrect_answers": [
+                "Block port numbers",
+                "Block protocols",
+                "Block MAC addresses"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "API traffic percentage > html traffic",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "What is WAF?",
+            "correct_answer": "Web Application Firewall",
+            "incorrect_answers": [
+                "Web Advancing Firewall",
+                "Web Application Freeware",
+                "Worst Annoying Firmware"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How much of traffic is analysed by cloud each day?",
+            "correct_answer": "4000gb or more",
+            "incorrect_answers": [
+                "500gb - 1500gb",
+                "1500gb - 3000gb",
+                "3000gb - 4000gb"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many of attacks are blocked by WAF each day?",
+            "correct_answer": "25M & more",
+            "incorrect_answers": [
+                "5M - 10M",
+                "10M - 20M",
+                "20M - 25M"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Amount of traffic processed in Jan-2023?",
+            "correct_answer": "100Tb - 150Tb",
+            "incorrect_answers": [
+                "50Tb - 100Tb",
+                "150Tb - 200Tb",
+                "200Tb - 250Tb"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Number of requests/response processed by WAF in Jan-2023?",
+            "correct_answer": "More than 5 Billion",
+            "incorrect_answers": [
+                "500 Million - 2 Billion",
+                "2.0 Billion - 3.5 Billion",
+                "3.5 Billion - 5.0 Billion"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Amount of bots identified by our advanced bot detection engine?",
+            "correct_answer": "25M & more",
+            "incorrect_answers": [
+                "5M - 10M",
+                "10M - 20M",
+                "20M - 25M"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many POST happens in real world applications vs GET?",
+            "correct_answer": "20% or more",
+            "incorrect_answers": [
+                "2%-8%",
+                "8%-15%",
+                "15%-20%"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How many HTTP requests one 8 core WAF can process in a day?",
+            "correct_answer": "1500-2000Cr",
+            "incorrect_answers": [
+                "100-500Cr",
+                "500-1000Cr",
+                "1000-1500Cr"
+            ]
+        },
+        {
+            "category": "WAF",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "How much network traffic one single WAF can handle in a day?",
+            "correct_answer": "15000gb or more",
+            "incorrect_answers": [
+                "500gb - 5000gb",
+                "5000gb - 10000gb",
+                "10000gb - 15000gb"
+            ]
+        }
+    ]
+}

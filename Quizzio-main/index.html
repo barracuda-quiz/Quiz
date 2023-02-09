@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>WAF, WAAS & ADC Quiz</title>
+    <link rel="shortcut icon" href="assets/quiz.png" type="image/x-icon" />
+    <link href="css/modal_style.css" rel="stylesheet" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Quizzio" />
+    <meta property="og:description" content="Quick and simple quiz app" />
+    <meta
+      property="og:image"
+      content="https://image.flaticon.com/icons/png/512/3406/3406808.png"
+    />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CTXV92TLR3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-CTXV92TLR3");
+    </script>
+  </head>
+  <body>
+    <form id="form__submit" action="quiz.html" method="GET" class="form-api">
+      <div class="container">
+        <div class="Landing-section">
+          <img class="logo" src="assets/quiz.png" alt="Quiz" />
+          <div class="wlcm-text">
+            <span style="font-size: 2rem; color: rgb(247, 195, 132)"
+              ><strong>WAF, WAAS & ADC Quiz</strong></span>
+          </div>
+          <div class="home-btns">
+            <!-- button data-modal-target="#modal" onclick="submitForm()" -->
+            <button data-modal-target="#modal">
+              Start
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">
+          <span class="title-bold">Quiz</span><br />Please submit the form
+          below to start your quiz
+        </div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="quiz.html" method="GET" class="form-api">
+          <label for="category">Select Category: </label>
+          <select
+            name="category"
+            id="category"
+            class="form-control"
+            onchange="myFunction()"
+          >
+            <option value="any">Any Category</option>
+            <option value="1">WAF</option>
+            <option value="2">WAAS</option>
+            <option value="3">ADC</option>
+          </select>
+
+          <br />
+
+          <label for="difficulty">Select Difficulty: </label>
+          <select
+            name="difficulty"
+            id="difficulty"
+            class="form-control"
+            onchange="myFunction()"
+          >
+            <option value="any">Any Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+
+          <br />
+
+          <label for="amount">Number of Questions:</label>
+          <input
+            type="number"
+            name="amount"
+            id="amount"
+            class="form-control"
+            min="1"
+            max="15"
+            value="5"
+          />
+
+          <br />
+
+          <input type="hidden" id="type" name="type" value="any" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <div id="overlay"></div>
+    <script src="js/main.js"></script>
+    <script>
+      function submitForm()
+      {
+        let form = document.getElementById("form__submit");
+        form.submit();
+      }
+      function myFunction() {
+        var cat_value = document.getElementById("category").value;
+        var difficulty = document.getElementById("difficulty").value;
+        var amount_select = document.getElementById("amount");
+        if (difficulty == "easy") {
+          if (cat_value == 13) {
+            amount_select.setAttribute("max", "8");
+          } else if (cat_value == 19) {
+            amount_select.setAttribute("max", "14");
+          } else if (cat_value == 25) {
+            amount_select.setAttribute("max", "9");
+          } else if (cat_value == 26) {
+            amount_select.setAttribute("max", "13");
+          } else if (cat_value == 29) {
+            amount_select.setAttribute("max", "12");
+          } else if (cat_value == 30) {
+            amount_select.setAttribute("max", "9");
+          } else {
+            amount_select.setAttribute("max", "15");
+          }
+        } else if (difficulty == "easy") {
+          if (cat_value == 13) {
+            amount_select.setAttribute("max", "13");
+          } else if (cat_value == 25) {
+            amount_select.setAttribute("max", "11");
+          } else if (cat_value == 30) {
+            amount_select.setAttribute("max", "10");
+          } else {
+            amount_select.setAttribute("max", "15");
+          }
+        } else if (difficulty == "hard") {
+          amount_select.setAttribute("max", "5");
+        } else {
+          amount_select.setAttribute("max", "15");
+          amount_select.value = 5;
+        }
+      }
+    </script>
+  </body>
+</html>
